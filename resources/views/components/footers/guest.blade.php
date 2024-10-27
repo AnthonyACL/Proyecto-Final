@@ -7,31 +7,18 @@
                         document.write(new Date().getFullYear())
 
                     </script>,
-                    hecho <i class="fa fa-heart" aria-hidden="true"></i> por
-                    <a href="https://www.creative-tim.com" class="font-weight-bold text-white" target="_blank">Creative
-                        Tim</a> & <a href="https://www.updivision.com" class="font-weight-bold text-white" target="_blank">UPDIVISION</a>
-                        por una mejor web.
+                    Hecho Anthony Condori, Samir Cornejo, Benjamin Apaza y Robinson Pacco
                 </div>
             </div>
             <div class="col-12 col-md-6">
                 <ul class="nav nav-footer justify-content-center justify-content-lg-end">
+                    
                     <li class="nav-item">
-                        <a href="https://www.creative-tim.com" class="nav-link text-white" target="_blank">Creative
-                            Tim</a>
+                        <a  class="nav-link text-muted"
+                            target="_blank">Entregable 1 </a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.updivision.com" class="nav-link text-white" target="_blank">UPDIVISION</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://www.creative-tim.com/presentation" class="nav-link text-white"
-                            target="_blank">Sobre Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://www.creative-tim.com/blog" class="nav-link text-white" target="_blank">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-white"
-                            target="_blank">Licencia</a>
+                        <a  class="nav-link text-muted" target="_blank">Curso Lenguaje de Programacion</a>
                     </li>
                 </ul>
             </div>

@@ -1,15 +1,22 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Models;
 
-use App\Models\Employe;
-use Illuminate\Http\Request;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
 
-class EmployeController extends Controller
+class Employe extends Model
 {
-    public function index()
-    {
-        $employes = Employe::all();
-        return view('tables', compact('employes'));
-    }
+    use HasFactory;
+
+    // Especificamos la tabla en caso de que el nombre sea distinto al plural de la clase
+    protected $table = 'employes';
+
+    // Habilitamos asignación masiva para estos campos
+    protected $fillable = [
+        'nombre',
+        'salario',
+        'posicion',
+        'estado',
+    ];
 }

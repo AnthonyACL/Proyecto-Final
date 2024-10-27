@@ -5,13 +5,13 @@ namespace App\Http\Controllers;
 use App\Models\Employe;
 use Illuminate\Http\Request;
 
-class EmployeController extends Controller
+class EmployController extends Controller
 {
     // Mostrar todos los empleados
     public function index()
     {
         $employes = Employe::all();
-        return view('tables', compact('employes'));
+        return view('pages.tables', compact('employes')); //llamada
     }
 
     // Mostrar formulario para crear un empleado

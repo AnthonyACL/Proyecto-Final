@@ -17,28 +17,7 @@
                         <div class="card-header pb-0">
                             <div class="row">
                                 <div class="col-lg-6 col-7">
-                                    <h6>Productos</h6>
-                                    <p class="text-sm mb-0">
-                                        <i class="fa fa-check text-info" aria-hidden="true"></i>
-                                        <span class="font-weight-bold ms-1">30 hecho</span> este mes
-                                    </p>
-                                </div>
-                                <div class="col-lg-6 col-5 my-auto text-end">
-                                    <div class="dropdown float-lg-end pe-4">
-                                        <a class="cursor-pointer" id="dropdownTable" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            <i class="fa fa-ellipsis-v text-secondary"></i>
-                                        </a>
-                                        <ul class="dropdown-menu px-2 py-3 ms-sm-n4 ms-n5"
-                                            aria-labelledby="dropdownTable">
-                                            <li><a class="dropdown-item border-radius-md" href="javascript:;">Accion</a>
-                                            </li>
-                                            <li><a class="dropdown-item border-radius-md" href="javascript:;">Otras
-                                                    acciones</a></li>
-                                            <li><a class="dropdown-item border-radius-md" href="javascript:;">Algo mas aqui
-                                            </a></li>
-                                        </ul>
-                                    </div>
+                                    <h6>Productos</h6>  
                                 </div>
                             </div>
                         </div>
@@ -52,7 +31,7 @@
                                                 Productos</th>
                                             <th
                                                 class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
-                                                Miembros</th>
+                                                Clientes</th>
                                             <th
                                                 class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                                 Venta total</th>
@@ -66,11 +45,11 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('assets') }}/img/small-logos/logo-xd.svg"
+                                                        <img src="https://coolboxpe.vtexassets.com/arquivos/ids/348562/KD-809_1.jpg?v=638445626774670000" 
                                                             class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Material Version</h6>
+                                                        <h6 class="mb-0 text-sm">Teclado Gamer</h6>
                                                     </div>
                                                 </div>
                                             </td>
@@ -99,7 +78,7 @@
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                <span class="text-xs font-weight-bold"> $14,000 </span>
+                                                <span class="text-xs font-weight-bold"> S/14,000 </span>
                                             </td>
                                             <td class="align-middle">
                                                 <div class="progress-wrapper w-75 mx-auto">
@@ -120,11 +99,11 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('assets') }}/img/small-logos/logo-atlassian.svg"
+                                                        <img src="https://m.media-amazon.com/images/I/61M2OwtouxL._AC_UF894,1000_QL80_.jpg"
                                                             class="avatar avatar-sm me-3" alt="atlassian">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Agregar Seguimiento de Progreso</h6>
+                                                        <h6 class="mb-0 text-sm">Mouse Gamer</h6>
                                                     </div>
                                                 </div>
                                             </td>
@@ -143,7 +122,7 @@
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                <span class="text-xs font-weight-bold"> $3,000 </span>
+                                                <span class="text-xs font-weight-bold"> S/3,000 </span>
                                             </td>
                                             <td class="align-middle">
                                                 <div class="progress-wrapper w-75 mx-auto">
@@ -164,11 +143,11 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('assets') }}/img/small-logos/logo-slack.svg"
+                                                        <img src="https://oechsle.vteximg.com.br/arquivos/ids/11207309-1000-1000/image-5c99f3fe4e444d4089b3cfa5c7051959.jpg?v=637980949385130000"
                                                             class="avatar avatar-sm me-3" alt="team7">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Corregir Errores de la Plataforma</h6>
+                                                        <h6 class="mb-0 text-sm">MousePad Led</h6>
                                                     </div>
                                                 </div>
                                             </td>
@@ -187,7 +166,7 @@
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                <span class="text-xs font-weight-bold"> No configurado </span>
+                                                <span class="text-xs font-weight-bold"> S/7,500 </span>
                                             </td>
                                             <td class="align-middle">
                                                 <div class="progress-wrapper w-75 mx-auto">
@@ -208,11 +187,11 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('assets') }}/img/small-logos/logo-spotify.svg"
+                                                        <img src="https://perfectchoice.me/cdn/shop/files/V-930051001_800x.png?v=1692040449"
                                                             class="avatar avatar-sm me-3" alt="spotify">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Lanza nuestra aplicacion movil</h6>
+                                                        <h6 class="mb-0 text-sm">Audifono Inalambrico</h6>
                                                     </div>
                                                 </div>
                                             </td>
@@ -241,7 +220,7 @@
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                <span class="text-xs font-weight-bold"> $20,500 </span>
+                                                <span class="text-xs font-weight-bold"> S/20,500 </span>
                                             </td>
                                             <td class="align-middle">
                                                 <div class="progress-wrapper w-75 mx-auto">
@@ -262,11 +241,11 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('assets') }}/img/small-logos/logo-jira.svg"
+                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuVFZxbcXbxefUzIaNUlmLdL2tTJt3VOOuLg&s"
                                                             class="avatar avatar-sm me-3" alt="jira">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Agregar la Nueva Página de Precios</h6>
+                                                        <h6 class="mb-0 text-sm">Silla Gamer Led</h6>
                                                     </div>
                                                 </div>
                                             </td>
@@ -280,7 +259,7 @@
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                <span class="text-xs font-weight-bold"> $500 </span>
+                                                <span class="text-xs font-weight-bold"> S/5,000 </span>
                                             </td>
                                             <td class="align-middle">
                                                 <div class="progress-wrapper w-75 mx-auto">
@@ -301,11 +280,11 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('assets') }}/img/small-logos/logo-invision.svg"
+                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZOHT6kooHiguXKWfrLJEnDtuOmHrNs1Dvs3RGYOq2_afJrleMdy699lQQ8Y17ApaIfSM&usqp=CAU"
                                                             class="avatar avatar-sm me-3" alt="invision">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Redesign New Online Shop</h6>
+                                                        <h6 class="mb-0 text-sm">Microfono Gaming</h6>
                                                     </div>
                                                 </div>
                                             </td>
@@ -324,7 +303,7 @@
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                <span class="text-xs font-weight-bold"> $2,000 </span>
+                                                <span class="text-xs font-weight-bold"> S/2,000 </span>
                                             </td>
                                             <td class="align-middle">
                                                 <div class="progress-wrapper w-75 mx-auto">
