@@ -25,6 +25,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\SessionsController;
+use App\Http\Controllers\EmployeController;
             
 
 Route::get('/', function () {return redirect('sign-in');})->middleware('guest');
@@ -49,9 +50,7 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('billing', function () {
 		return view('pages.billing');
 	})->name('billing');
-	Route::get('tables', function () {
-		return view('pages.tables');
-	})->name('tables');
+	Route::get('tables', [EmployeController::class, 'index'])->name('tables');
 	Route::get('rtl', function () {
 		return view('pages.rtl');
 	})->name('rtl');

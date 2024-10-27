@@ -11,18 +11,18 @@
                     <div class="card my-4">
                         <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                             <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                <h6 class="text-white mx-3"><strong> Add, Edit, Delete features are not
-                                        functional!</strong> This is a<strong> PRO</strong> feature! Click
+                                <h6 class="text-white mx-3"><strong> Las funciones de agregar, editar y eliminar no estan 
+                                    funcionando!
+                                </strong> Esta es una<strong> funcion</strong> PRO! Click
                                     <strong><a
                                             href="https://www.creative-tim.com/product/material-dashboard-pro-laravel"
-                                            target="_blank" class="text-white"><u>here</u> </a></strong>to see
-                                    the PRO product!</h6>
+                                            target="_blank" class="text-white"><u>aqui</u> </a></strong>¡para ver el producto!</h6>
                             </div>
                         </div>
                         <div class=" me-3 my-3 text-end">
                             <a class="btn bg-gradient-dark mb-0" href="javascript:;"><i
-                                    class="material-icons text-sm">add</i>&nbsp;&nbsp;Add New
-                                User</a>
+                                    class="material-icons text-sm">add</i>&nbsp;&nbsp;Agregar nuevo
+                                Usuario</a>
                         </div>
                         <div class="card-body px-0 pb-2">
                             <div class="table-responsive p-0">
@@ -35,19 +35,19 @@
                                             </th>
                                             <th
                                                 class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                PHOTO</th>
+                                                FOTO</th>
                                             <th
                                                 class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
-                                                NAME</th>
+                                                NOMBRE</th>
                                             <th
                                                 class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                EMAIL</th>
+                                                CORREO</th>
                                             <th
                                                 class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                ROLE</th>
+                                                ROL</th>
                                             <th
                                                 class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                CREATION DATE
+                                                DIA DE CREACION
                                             </th>
                                             <th class="text-secondary opacity-7"></th>
                                         </tr>
@@ -129,7 +129,7 @@
                                                     alexa@creative-tim.com</p>
                                             </td>
                                             <td class="align-middle text-center">
-                                                <span class="text-secondary text-xs font-weight-bold">Creator</span>
+                                                <span class="text-secondary text-xs font-weight-bold">Creador</span>
                                             </td>
                                             <td class="align-middle text-center">
                                                 <span class="text-secondary text-xs font-weight-bold">16/06/18</span>
@@ -176,7 +176,7 @@
                                                     laurent@creative-tim.com</p>
                                             </td>
                                             <td class="align-middle text-center">
-                                                <span class="text-secondary text-xs font-weight-bold">Member</span>
+                                                <span class="text-secondary text-xs font-weight-bold">Miembro</span>
                                             </td>
                                             <td class="align-middle text-center">
                                                 <span class="text-secondary text-xs font-weight-bold">30/06/18</span>
@@ -222,7 +222,7 @@
                                                     michael@creative-tim.com</p>
                                             </td>
                                             <td class="align-middle text-center">
-                                                <span class="text-secondary text-xs font-weight-bold">Member</span>
+                                                <span class="text-secondary text-xs font-weight-bold">Miembro</span>
                                             </td>
                                             <td class="align-middle text-center">
                                                 <span class="text-secondary text-xs font-weight-bold">16/06/19</span>
@@ -268,7 +268,7 @@
                                                     richard@creative-tim.com</p>
                                             </td>
                                             <td class="align-middle text-center">
-                                                <span class="text-secondary text-xs font-weight-bold">Creator</span>
+                                                <span class="text-secondary text-xs font-weight-bold">Creador</span>
                                             </td>
                                             <td class="align-middle text-center">
                                                 <span class="text-secondary text-xs font-weight-bold">16/06/18</span>
@@ -313,7 +313,7 @@
                                                     miriam@creative-tim.com</p>
                                             </td>
                                             <td class="align-middle text-center">
-                                                <span class="text-secondary text-xs font-weight-bold">Creator</span>
+                                                <span class="text-secondary text-xs font-weight-bold">Creador</span>
                                             </td>
                                             <td class="align-middle text-center">
                                                 <span class="text-secondary text-xs font-weight-bold">26/06/18</span>

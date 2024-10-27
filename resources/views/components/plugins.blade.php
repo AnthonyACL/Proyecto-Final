@@ -5,8 +5,8 @@
     <div class="card shadow-lg">
         <div class="card-header pb-0 pt-3">
             <div class="float-start">
-                <h5 class="mt-3 mb-0">Material UI Configurator</h5>
-                <p>See our dashboard options.</p>
+                <h5 class="mt-3 mb-0">Configurador UI de materiales</h5>
+                <p>Vea nuestras opciones de panel de control.</p>
             </div>
             <div class="float-end mt-4">
                 <button class="btn btn-link text-dark p-0 fixed-plugin-close-button">
@@ -19,7 +19,7 @@
         <div class="card-body pt-sm-3 pt-0">
             <!-- Sidebar Backgrounds -->
             <div>
-                <h6 class="mb-0">Sidebar Colors</h6>
+                <h6 class="mb-0">Colores de la barra lateral</h6>
             </div>
             <a href="javascript:void(0)" class="switch-trigger background-color">
                 <div class="badge-colors my-2 text-start">
@@ -37,8 +37,8 @@
             </a>
             <!-- Sidenav Type -->
             <div class="mt-3">
-                <h6 class="mb-0">Sidenav Type</h6>
-                <p class="text-sm">Choose between 2 different sidenav types.</p>
+                <h6 class="mb-0">Tipo Sidenav</h6>
+                <p class="text-sm">Elija entre 2 tipos de navegación lateral diferentes.</p>
             </div>
             <div class="d-flex">
                 <button class="btn bg-gradient-dark px-3 mb-2 active" data-class="bg-gradient-dark"
@@ -48,10 +48,10 @@
                 <button class="btn bg-gradient-dark px-3 mb-2 ms-2" data-class="bg-white"
                     onclick="sidebarType(this)">White</button>
             </div>
-            <p class="text-sm d-xl-none d-block mt-2">You can change the sidenav type just on desktop view.</p>
+            <p class="text-sm d-xl-none d-block mt-2">Puede cambiar el tipo de navegación lateral solo en la vista de escritorio.</p>
             <!-- Navbar Fixed -->
             <div class="mt-3 d-flex">
-                <h6 class="mb-0">Navbar Fixed</h6>
+                <h6 class="mb-0">Barra de navegación fija</h6>
                 <div class="form-check form-switch ps-0 ms-auto my-auto">
                     <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarFixed"
                         onclick="navbarFixed(this)">

@@ -7,10 +7,10 @@
                         document.write(new Date().getFullYear())
 
                     </script>,
-                    made with <i class="fa fa-heart" aria-hidden="true"></i> by
+                    hecho <i class="fa fa-heart" aria-hidden="true"></i> por
                     <a href="https://www.creative-tim.com" class="font-weight-bold text-white" target="_blank">Creative
                         Tim</a> & <a href="https://www.updivision.com" class="font-weight-bold text-white" target="_blank">UPDIVISION</a>
-                    for a better web.
+                        por una mejor web.
                 </div>
             </div>
             <div class="col-12 col-md-6">
@@ -24,14 +24,14 @@
                     </li>
                     <li class="nav-item">
                         <a href="https://www.creative-tim.com/presentation" class="nav-link text-white"
-                            target="_blank">About Us</a>
+                            target="_blank">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
                         <a href="https://www.creative-tim.com/blog" class="nav-link text-white" target="_blank">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-white"
-                            target="_blank">License</a>
+                            target="_blank">Licencia</a>
                     </li>
                 </ul>
             </div>
