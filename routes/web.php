@@ -26,6 +26,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\SessionsController;
 use App\Http\Controllers\EmployController;
+#este es el que agrege
             
 
 Route::get('/', function () {return redirect('sign-in');})->middleware('guest');
@@ -50,7 +51,30 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('billing', function () {
 		return view('pages.billing');
 	})->name('billing');
-	Route::get('tables', [EmployController::class, 'index'])->name('tables');
+
+
+    #Principal de tables
+	Route::get('tables',[EmployController::class, 'index'])->name('tables');
+
+	#Rutas para Employ
+	Route::get('/employes/{employe}/edit', [EmployController::class, 'edit'])->name('employes.edit');
+	Route::put('/employes/{employe}', [EmployController::class, 'update'])->name('employes.update');  // Actualizar
+	Route::delete('/employes/{id}', [EmployController::class, 'destroy'])->name('employes.destroy');
+	
+	Route::get('/employes/create', [EmployController::class, 'create'])->name('employes.create');
+	Route::post('/employes', [EmployController::class, 'store'])->name('employes.store');
+
+	
+/*
+	Route::get('/employes', [EmployController::class, 'index'])->name('tables');  // Ruta para mostrar todos
+	Route::get('/employes/create', [EmployController::class, 'create'])->name('employes.create');  // Crear
+	Route::post('/employes', [EmployController::class, 'store'])->name('employes.store');  // Almacenar
+	Route::get('/employes/{employe}', [EmployController::class, 'show'])->name('employes.show');  // Mostrar
+	Route::get('/employes/{employe}/edit', [EmployController::class, 'edit'])->name('employes.edit');  // Editar
+	
+	Route::delete('/employes/{id}', [EmployController::class, 'destroy'])->name('employes.destroy');  // Eliminar
+*/
+	
 	Route::get('rtl', function () {
 		return view('pages.rtl');
 	})->name('rtl');

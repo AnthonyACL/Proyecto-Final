@@ -17,7 +17,7 @@ class EmployController extends Controller
     // Mostrar formulario para crear un empleado
     public function create()
     {
-        return view('employes.create');
+        return view('forms.create');
     }
 
     // Almacenar un nuevo empleado
@@ -37,13 +37,13 @@ class EmployController extends Controller
     // Mostrar un empleado específico
     public function show(Employe $employe)
     {
-        return view('employes.show', compact('employe'));
+        return view('pages.edit', compact('employe'));
     }
 
     // Mostrar formulario para editar un empleado
     public function edit(Employe $employe)
     {
-        return view('employes.edit', compact('employe'));
+        return view('forms.edit', compact('employe'));
     }
 
     // Actualizar un empleado
@@ -61,9 +61,12 @@ class EmployController extends Controller
     }
 
     // Eliminar un empleado
-    public function destroy(Employe $employe)
+    public function destroy($id)
     {
-        $employe->delete();
-        return redirect()->route('tables')->with('success', 'Empleado eliminado exitosamente.');
+        $employes = Employe::findOrFail($id);
+        $employes->delete();
+        
+        return redirect()->route('tables')->with('success', 'Empleado eliminado correctamente');
     }
 }
+
